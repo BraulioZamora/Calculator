@@ -55,6 +55,7 @@ public class CalculatorImpl
         Memory m = new MemoryImpl();
         c.setMemory(m);
         c.memoryStore(BigDecimal.valueOf(2, 3));
+        // holaaaaaaaaa
         c.memoryClear();
         BigDecimal result = c.memoryRead();
         System.out.println(c.divide(BigDecimal.valueOf(2), BigDecimal.valueOf(3)));
